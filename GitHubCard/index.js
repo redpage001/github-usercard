@@ -58,20 +58,6 @@ axios.get("https://api.github.com/users/redpage001/followers")
   console.log('the data was not returned', error);
 })
 
-// followersArray.forEach(val => {
-//   let friendUrl = `https://api.github.com/users/${val}`;
-
-//   axios.get(friendUrl)
-// .then(response => {
-//   console.log(response.data)
-//   const cards = document.querySelector(".cards");
-//   cards.appendChild(UserCard(response.data));
-// })
-// .catch(error =>{
-//   console.log('the data was not returned', error);
-// })
-// })
-
 /* Step 3: Create a function that accepts a single object as its only argument,
           Using DOM methods and properties, create a component that will return the following DOM element:
 
